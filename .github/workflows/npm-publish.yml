@@ -19,9 +19,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-          registry-url: 'https://npm.pkg.github.com'   
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
+          registry-url: 'https://npm.pkg.github.com'    
       - run: ls -a
       - run: cat .npmrc
       - name: Install dependencies
