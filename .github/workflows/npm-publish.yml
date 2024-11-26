@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'    
+          scope: '@acul021'
       - run: ls -a
       - run: ls -a ../
       - run: ls -a ~/
