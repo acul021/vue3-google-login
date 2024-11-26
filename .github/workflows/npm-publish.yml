@@ -22,7 +22,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'   
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
-
+      - run: ls -a
+      - run: cat .npmrc
       - name: Install dependencies
         run: npm ci
 
