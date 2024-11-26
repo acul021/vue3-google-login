@@ -79,7 +79,7 @@ export interface IdConfiguration {
    * see the [hd](https://developers.google.com/identity/protocols/oauth2/openid-connect#authenticationuriparameters)
    * field in the OpenID Connect docs.
    */
-  hosted_domain?: string;
+  hd?: string;
 }
 
 export interface Options {
