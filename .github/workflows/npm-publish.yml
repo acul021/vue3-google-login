@@ -22,7 +22,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'    
       - run: ls -a
       - run: ls -a ../
-      - run: ls -a src
+      - run: ls -a ~/
       - run: cat .npmrc
       - name: Install dependencies
         run: npm ci
